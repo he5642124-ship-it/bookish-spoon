@@ -324,6 +324,7 @@ const Contact = () => {
                 
                 <button type="submit" className="btn btn-primary btn-full" disabled={isSubmitting}>
                   {isSubmitting ? <span className="loading"></span> : 'Send Project Inquiry'}
+                  }
                 </button>
                 
                 <p style={{ 

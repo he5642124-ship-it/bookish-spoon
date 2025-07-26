@@ -322,6 +322,7 @@ const Home = () => {
               
               <button type="submit" className="btn btn-primary btn-full" disabled={isSubmitting}>
                 {isSubmitting ? <span className="loading"></span> : 'Send Message'}
+                }
               </button>
             </form>
           </AnimatedSection>
